@@ -1,9 +1,8 @@
 <?php
-foreach($model as $data){
-    echo $data->id;
-    echo $data->name;
-    echo $data->region_id;
-}
+var_dump($model);
+// foreach($model as $data){
+//     echo $data->nama_daerah;
+// }
 /* @var $this yii\web\View */
 ?>
 <h1>Data Sensus Penduduk</h1>
